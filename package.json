@@ -9,13 +9,10 @@
   "author": "Mvsko",
   "license": "ISC",
   "dependencies": {
-    "center-align": "^1.0.1",
     "cli-color": "^2.0.1",
     "fs": "^0.0.1-security",
-    "inquirer": "^8.2.0",
     "moment": "^2.29.1",
     "node-bash-title": "^0.0.2",
-    "node-webshot": "^1.0.4",
     "path": "^0.12.7",
     "phantom": "^6.3.0",
     "prompt-sync": "^4.2.0"
