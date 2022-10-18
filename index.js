@@ -17,7 +17,7 @@ const cr = clc.redBright;
 
 //#▉##########################▶ Code ◀#########################▉#
 
-ConsoleTitle("Authentification en cours..")
+ConsoleTitle("Authentication in progress..")
 
 console.clear()
 const takeScreenshots = async(url) => {
@@ -29,7 +29,7 @@ const takeScreenshots = async(url) => {
     const content = await page.property("content");
 
     if (status === "success"){
-        console.log(cb("Le site web " + path.parse(url).name + " a bien été enregistré dans " + pathfile))
+        console.log(cb("The website " + path.parse(url).name + " has been succesfully save in " + pathfile))
         await page.render(pathfile)
         await fs.writeFile(pathhtml, content, function(err) {
             if(err) {
@@ -37,7 +37,7 @@ const takeScreenshots = async(url) => {
             }
         }); 
     } else {
-        console.log(cr("Le site web " + path.parse(url).name + " n'a pas été enregistré correctement dans " + pathfile + " suite à une erreur !"))
+        console.log(cr("The website " + path.parse(url).name + " was not registered correctly in " + pathfile + " as a result of an error !"))
         webscreen()
     }
 

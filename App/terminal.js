@@ -23,10 +23,10 @@ console.log(clc.redBright(`
                                                                              
                                                                                                                  `))
 console.log()
-console.log(clc.redBright(`                                             Bienvenue sur ` + clc.whiteBright(SETTINGS.APP.NAME + ` (${SETTINGS.APP.VERSION})`)))
+console.log(clc.redBright(`                                             Welcome on ` + clc.whiteBright(SETTINGS.APP.NAME + ` (${SETTINGS.APP.VERSION})`)))
 console.log()
-console.log(clc.redBright(`                                                 Utilisateur: ` + clc.whiteBright(username)))
-console.log(clc.redBright(`                                                    Rang: ` + clc.whiteBright(SETTINGS.USER.RANK)))
+console.log(clc.redBright(`                                                 User: ` + clc.whiteBright(username)))
+console.log(clc.redBright(`                                                    Rank: ` + clc.whiteBright(SETTINGS.USER.RANK)))
 
 console.log(clc.redBright(`________________________________________________________________________________________________________________________`))
 console.log()

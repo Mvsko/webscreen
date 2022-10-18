@@ -1,9 +1,9 @@
 const SETTINGS = {
     USER: {
-        NAME: "username",
+        NAME: "Guest",
         TOKEN: "",
         PICTURE: "",
-        RANK: "Utilisateur",
+        RANK: "User",
     },
     APP: {
         NAME: "WebScreen",
